@@ -1,7 +1,8 @@
+import Header from './components/header/Header';
 import LandingPage from './components/landing-page/LandingPage';
 import Skills from './components/skills/Skills';
 import RecentProjects from './components/recent-projects/RecentProjects';
-import Header from './components/header/Header';
+import Contact from './components/contact/Contact';
 
 import { GlobalStyle } from './global.styles';
 
@@ -13,6 +14,7 @@ const App = () => {
       <LandingPage />
       <Skills />
       <RecentProjects />
+      <Contact />
     </div>
   );
 }

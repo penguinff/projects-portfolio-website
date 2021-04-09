@@ -6,7 +6,7 @@ import { SkillsSection, Title, Content, List, Item } from './skills.styles';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const skillsArray = ['HTML5', 'CSS3', 'Sass', 'Materialize', 'CSS Modules', 'styled-components', 'JavaScript', 'ES6', 'React', 'Redux', 'Redux-Saga', 'D3.js', 'GSAP', 'Firebase', 'Git', 'GitHub'];
+const skillsArray = ['HTML5', 'CSS3', 'Sass', 'Materialize', 'CSS Modules', 'styled-components', 'JavaScript', 'ES6', 'React', 'Redux', 'Redux-Saga', 'D3.js', 'GSAP', 'Firebase', 'Git', 'GitHub', ''];
 
 const Skills = () => {
   let section = useRef(null);

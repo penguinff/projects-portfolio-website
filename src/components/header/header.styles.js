@@ -16,7 +16,7 @@ export const HeaderSection = styled.nav`
 `
 
 export const Link = styled.a`
-  color: ${color.fontColor};
+  color: ${color.fontColorLight};
   font-family: 'Covered By Your Grace', cursive;
   font-size: 2.5rem;
   text-decoration: none;

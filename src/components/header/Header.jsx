@@ -13,7 +13,7 @@ const Header = () => {
   // useEffect(() => {
   //   ScrollTrigger.create({
   //     trigger: headerSection,
-  //     start: 'bottom 1%',
+  //     start: 'top -150',
   //     onEnter: () => setHeaderColor('white'),
   //     onEnterBack: () => setHeaderColor('transparent'),
   //     markers: true
@@ -26,7 +26,7 @@ const Header = () => {
       <Link2>About</Link2>
       <Link href='#skills'>Skills</Link>
       <Link2 href='#projects'>Projects</Link2>
-      <Link>Contact</Link>
+      <Link href='#contact'>Contact</Link>
     </HeaderSection>
   );
 }

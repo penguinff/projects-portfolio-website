@@ -44,7 +44,7 @@ const RecentProjects = () => {
   let imageList = useRef(null);
   let projectList = useRef(null);
 
-  let [activeSlide, setActiveSlide] = useState(0);
+  const [activeSlide, setActiveSlide] = useState(0);
 
   useEffect(() => {
     gsap.from(title, {duration: 1.5, opacity: 0, x: 200, 

@@ -28,6 +28,7 @@ export const Title = styled.h1`
   font-size: 5rem;
   letter-spacing: 0.6rem;
   color: ${color.secondaryColorDark};
+  text-shadow: 3px 3px ${color.secondaryColor};
   position: relative;
 
   &:after {
@@ -79,6 +80,7 @@ export const Inner = styled.div`
 export const Image = styled.div`
   width: 70rem;
   position: relative;
+
   ul {
     list-style-type: none;
     padding: 0;
@@ -94,10 +96,35 @@ export const Image = styled.div`
       opacity: 0;
     }
   }
+
   img {
     width: 70rem;
     height:40rem;
     object-fit: cover;
+    transition: all 0.3s;
+  }
+
+  &:hover img {
+    filter: brightness(85%);
+  }
+
+  &:before {
+    content: 'Click To See Demo';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Covered By Your Grace', cursive;
+    color: white;
+    font-size: 2rem;
+    padding: 1.5rem;
+    z-index: 100;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+
+  &:hover:before, &:hover img {
+    opacity: 1;
   }
 
   &:after {

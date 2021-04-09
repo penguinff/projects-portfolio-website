@@ -17,6 +17,7 @@ export const Title = styled.h1`
   font-size: 5rem;
   letter-spacing: 0.6rem;
   color: ${color.complementColor};
+  text-shadow: 3px 3px ${color.complementColorDark};
   position: relative;
   display: flex;
   justify-content: center;
