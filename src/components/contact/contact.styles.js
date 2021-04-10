@@ -159,7 +159,7 @@ export const Modal = styled.div`
 `
 
 export const Cfa = styled.a`
-  margin: 5rem auto 10rem;
+  margin: 5rem auto 6rem;
   padding: 1rem;
   font-family: 'Covered By Your Grace', cursive;
   font-size: 3rem;
@@ -188,4 +188,9 @@ export const Cfa = styled.a`
   &:hover:after {
     background-color: ${color.complementColorDark};
   }
+`
+
+export const CopyRight = styled.span`
+  padding: 2rem;
+  color: ${color.fontColor};
 `

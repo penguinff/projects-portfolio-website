@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-import { ContactSection, Title, FormContainer, Form, Input, InputLarge, Label, Button, ModalContainer, Modal, Cfa } from './contact.styles';
+import { ContactSection, Title, FormContainer, Form, Input, InputLarge, Label, Button, ModalContainer, Modal, Cfa, CopyRight } from './contact.styles';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -79,7 +79,7 @@ const Contact = () => {
           <Button type='submit' value='Send'/>
         </Form>
         <Cfa href='https://github.com/penguinff' target='_blank' rel='noreferrer'>Visit My GitHub Page</Cfa>
-        <span>Copyright © 2021 by Christine Fong</span>
+        <CopyRight>Copyright © 2021 by Christine Fong</CopyRight>
       </FormContainer>
       <ModalContainer isModalShown={isModalShown} onClick={() => setIsModalShown(!isModalShown)}>
         <Modal ref={el => modal = el}>
