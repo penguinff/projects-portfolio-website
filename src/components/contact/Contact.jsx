@@ -49,7 +49,7 @@ const Contact = () => {
       </Title>
       <FormContainer>
         <Form onSubmit={handleSubmit}>
-          <Label for='name'>Name</Label><br/>
+          <Label htmlFor='name'>Name</Label><br/>
           <Input
             id='name'
             type='text'
@@ -58,7 +58,7 @@ const Contact = () => {
             onChange={handleChange}
             required
           /><br/>
-          <Label for='email'>Email</Label><br/>
+          <Label htmlFor='email'>Email</Label><br/>
           <Input
             id='email'
             type='email'
@@ -67,7 +67,7 @@ const Contact = () => {
             onChange={handleChange}
             required
           /><br/>
-          <Label for='message'>Message</Label><br/>
+          <Label htmlFor='message'>Message</Label><br/>
           <InputLarge as='textarea'
             id='message'
             type='text'
