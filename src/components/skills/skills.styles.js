@@ -3,7 +3,7 @@ import { color } from '../../variables.styles';
 import wordcloud from '../../assets/wordcloud-background3.png'
 
 export const SkillsSection = styled.section`
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(${wordcloud});
   background-size: cover;
   z-index: -2;

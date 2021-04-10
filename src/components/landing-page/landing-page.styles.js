@@ -2,14 +2,14 @@ import styled from 'styled-components';
 import { color } from '../../variables.styles';
 
 export const LandingPageSection = styled.section`
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
-  /* background-color: ${color.primaryColorLight}; */
 `
 
 export const ImageContainer = styled.div`
   display: inline-flex;
   justify-content: center;
+  width: 100vw;
 
   &:before {
     content: '';

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { color } from '../../variables.styles';
 
 export const ContactSection = styled.section`
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 
   &:before {

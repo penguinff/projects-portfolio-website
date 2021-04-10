@@ -5,7 +5,7 @@ import leftQuote from '../../assets/quote-left-solid.svg';
 import rightQuote from '../../assets/quote-right-solid.svg';
 
 export const AboutMeSection = styled.section`
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
