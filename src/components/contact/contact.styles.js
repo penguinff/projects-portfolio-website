@@ -45,7 +45,6 @@ export const Title = styled.h1`
   color: ${color.primaryColor};
   text-shadow: 3px 3px ${color.primaryColorDark};
   position: relative;
-  display: flex;
 
   &:after {
     content: '';

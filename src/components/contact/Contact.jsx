@@ -37,7 +37,7 @@ const Contact = () => {
     gsap.from(modal, {duration: 1.5, opacity: 0, y: 150});
   }
 
-    useEffect(() => {
+  useEffect(() => {
     gsap.from(title, {duration: 1.5, opacity: 0, x: 150,
       scrollTrigger: {trigger: title, start: 'top 95%', end: 'top 20%', scrub: 4, toggleActions: 'restart none none none'}});
   }, []);
