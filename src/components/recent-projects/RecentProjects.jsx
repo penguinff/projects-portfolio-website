@@ -59,12 +59,12 @@ const RecentProjects = () => {
     gsap.to(projectList.children[activeSlide], {duration: .5, opacity: 1, delay: .5});
   }, [activeSlide]);
 
-  const imageWidth = 700;
+  const imageWidth = 70;
 
   const changeSlide = (value) => {
     if (activeSlide === 0 && value === -1) {
       setActiveSlide(projects.length - 1);
-      gsap.to(imageList.children, {duration: 1, x: -imageWidth*(projects.length - 1), ease: 'power3.easeOut'})
+      gsap.to(imageList.children, {duration: 1, x: `${-imageWidth*(projects.length - 1)}rem`, ease: 'power3.easeOut'})
       gsap.from(imageList.children[projects.length - 1], {duration: 1, scale: 1.2, ease: 'power3.easeOut'});
     } else if (activeSlide === projects.length - 1 && value === 1) {
       setActiveSlide(0);
@@ -72,7 +72,7 @@ const RecentProjects = () => {
       gsap.from(imageList.children[0], {duration: 1, scale: 1.2, ease: 'power3.easeOut'});
     } else {
       setActiveSlide(activeSlide + value);
-      gsap.to(imageList.children, {duration: 1, x: -imageWidth*(activeSlide+value), ease: 'power3.easeOut'});
+      gsap.to(imageList.children, {duration: 1, x: `${-imageWidth*(activeSlide+value)}rem`, ease: 'power3.easeOut'});
       gsap.from(imageList.children[activeSlide + value], {duration: 1, scale: 1.2, ease: 'power3.easeOut'});
     }
   }
