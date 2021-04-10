@@ -15,6 +15,7 @@ https://penguinff.github.io/projects-portfolio-website/
 - GSAP
 - styled-components
 - React
+- Firebase Cloud Functions (還沒完成)
 
 ## 製作時間
 
