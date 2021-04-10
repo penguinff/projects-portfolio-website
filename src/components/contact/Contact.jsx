@@ -79,6 +79,7 @@ const Contact = () => {
           <Button type='submit' value='Send'/>
         </Form>
         <Cfa href='https://github.com/penguinff' target='_blank' rel='noreferrer'>Visit My GitHub Page</Cfa>
+        <span>Copyright © 2021 by Christine Fong</span>
       </FormContainer>
       <ModalContainer isModalShown={isModalShown} onClick={() => setIsModalShown(!isModalShown)}>
         <Modal ref={el => modal = el}>

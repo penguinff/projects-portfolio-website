@@ -159,7 +159,7 @@ export const Modal = styled.div`
 `
 
 export const Cfa = styled.a`
-  margin: 5rem;
+  margin: 5rem auto 10rem;
   padding: 1rem;
   font-family: 'Covered By Your Grace', cursive;
   font-size: 3rem;
