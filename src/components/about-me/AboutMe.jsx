@@ -1,6 +1,6 @@
 import { AboutMeSection, Photo, TextContainer } from './about-me.styles';
 
-import aboutMePic from '../../assets/DSC06571.JPG'
+import aboutMePic from '../../assets/aboutme.JPG'
 
 const AboutMe = () => {
   return (
