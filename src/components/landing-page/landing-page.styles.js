@@ -7,7 +7,7 @@ export const LandingPageSection = styled.section`
 `
 
 export const ImageContainer = styled.div`
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   width: 100vw;
 
