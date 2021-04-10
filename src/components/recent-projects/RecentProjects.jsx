@@ -15,7 +15,7 @@ gsap.registerPlugin(ScrollTrigger);
 const projects = [
   {
     name: 'Floral Accessories',
-    description: 'Built responsive E-commerce website with Firebase as the Backend-as-a-Service.',
+    description: 'Built a responsive E-commerce website with Firebase as the Backend-as-a-Service.',
     skills: 'React, Redux, Redux-Saga, Sass, CSS Modules, Firebase',
     github: 'https://github.com/penguinff/projects-floral-accessories',
     demo: 'https://floral-accessories.herokuapp.com/',

@@ -8,22 +8,22 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Header = () => {
  let headerSection = useRef(null);
- const [headerColor, setHeaderColor] = useState('transparent')
+ const [visible, setVisible] = useState(false)
   
-  // useEffect(() => {
-  //   ScrollTrigger.create({
-  //     trigger: headerSection,
-  //     start: 'top -150',
-  //     onEnter: () => setHeaderColor('white'),
-  //     onEnterBack: () => setHeaderColor('transparent'),
-  //     markers: true
-  //   })
-  // }, []);
+  useEffect(() => {
+    ScrollTrigger.create({
+      trigger: headerSection,
+      start: 'top -150',
+      onEnter: () => setVisible(true),
+      onEnterBack: () => setVisible(false),
+      // markers: true
+    })
+  }, []);
 
   return (
-    <HeaderSection ref={el => headerSection = el} headerColor={headerColor}>
+    <HeaderSection ref={el => headerSection = el} visible={visible}>
       <Link href='#home'>Home</Link>
-      <Link2>About</Link2>
+      <Link2 href='#about'>About</Link2>
       <Link href='#skills'>Skills</Link>
       <Link2 href='#projects'>Projects</Link2>
       <Link href='#contact'>Contact</Link>

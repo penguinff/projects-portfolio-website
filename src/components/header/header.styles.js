@@ -12,7 +12,8 @@ export const HeaderSection = styled.nav`
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  background-color: ${props => props.headerColor};
+  opacity: ${props => props.visible ? 1 : 0};
+  transition: all 0.3s;
 `
 
 export const Link = styled.a`

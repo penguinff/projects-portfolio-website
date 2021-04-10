@@ -1,5 +1,6 @@
 import Header from './components/header/Header';
 import LandingPage from './components/landing-page/LandingPage';
+import AboutMe from './components/about-me/AboutMe';
 import Skills from './components/skills/Skills';
 import RecentProjects from './components/recent-projects/RecentProjects';
 import Contact from './components/contact/Contact';
@@ -12,6 +13,7 @@ const App = () => {
       <GlobalStyle />
       <Header />
       <LandingPage />
+      <AboutMe />
       <Skills />
       <RecentProjects />
       <Contact />
