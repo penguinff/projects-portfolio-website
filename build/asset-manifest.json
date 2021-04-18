@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/projects-portfolio-website/static/css/main.2f4ca17c.chunk.css",
+    "main.js": "/projects-portfolio-website/static/js/main.2528d487.chunk.js",
+    "main.js.map": "/projects-portfolio-website/static/js/main.2528d487.chunk.js.map",
+    "runtime-main.js": "/projects-portfolio-website/static/js/runtime-main.e00933ab.js",
+    "runtime-main.js.map": "/projects-portfolio-website/static/js/runtime-main.e00933ab.js.map",
+    "static/js/2.ec6ade5d.chunk.js": "/projects-portfolio-website/static/js/2.ec6ade5d.chunk.js",
+    "static/js/2.ec6ade5d.chunk.js.map": "/projects-portfolio-website/static/js/2.ec6ade5d.chunk.js.map",
+    "static/js/3.b16c8a61.chunk.js": "/projects-portfolio-website/static/js/3.b16c8a61.chunk.js",
+    "static/js/3.b16c8a61.chunk.js.map": "/projects-portfolio-website/static/js/3.b16c8a61.chunk.js.map",
+    "index.html": "/projects-portfolio-website/index.html",
+    "static/css/main.2f4ca17c.chunk.css.map": "/projects-portfolio-website/static/css/main.2f4ca17c.chunk.css.map",
+    "static/js/2.ec6ade5d.chunk.js.LICENSE.txt": "/projects-portfolio-website/static/js/2.ec6ade5d.chunk.js.LICENSE.txt",
+    "static/media/aboutme.937290cb.JPG": "/projects-portfolio-website/static/media/aboutme.937290cb.JPG",
+    "static/media/arrow-left.b27e2493.svg": "/projects-portfolio-website/static/media/arrow-left.b27e2493.svg",
+    "static/media/arrow-right.2db90993.svg": "/projects-portfolio-website/static/media/arrow-right.2db90993.svg",
+    "static/media/covid19-dashboard.8a8c25ed.png": "/projects-portfolio-website/static/media/covid19-dashboard.8a8c25ed.png",
+    "static/media/diving4.757a4e22.jpg": "/projects-portfolio-website/static/media/diving4.757a4e22.jpg",
+    "static/media/floral-accessories.6804ac0f.png": "/projects-portfolio-website/static/media/floral-accessories.6804ac0f.png",
+    "static/media/mel2.437d112e.jpg": "/projects-portfolio-website/static/media/mel2.437d112e.jpg",
+    "static/media/ocean.10a2475a.jpg": "/projects-portfolio-website/static/media/ocean.10a2475a.jpg",
+    "static/media/plane4.a71f1c68.jpg": "/projects-portfolio-website/static/media/plane4.a71f1c68.jpg",
+    "static/media/portfolio-website.75596aec.png": "/projects-portfolio-website/static/media/portfolio-website.75596aec.png",
+    "static/media/quote-left-solid.be6cd58a.svg": "/projects-portfolio-website/static/media/quote-left-solid.be6cd58a.svg",
+    "static/media/quote-right-solid.c9b0e811.svg": "/projects-portfolio-website/static/media/quote-right-solid.c9b0e811.svg",
+    "static/media/wordcloud-background3.2123bad8.png": "/projects-portfolio-website/static/media/wordcloud-background3.2123bad8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e00933ab.js",
+    "static/js/2.ec6ade5d.chunk.js",
+    "static/css/main.2f4ca17c.chunk.css",
+    "static/js/main.2528d487.chunk.js"
+  ]
+}
