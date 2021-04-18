@@ -25,15 +25,24 @@ const Contact = () => {
     setContactInfo({ ...contactInfo, [name]: value });
   }
 
+  const submitForm = (data) => {
+    fetch('https://us-central1-portfolio-website-8725e.cloudfunctions.net/submitForm', {
+      method: 'post',
+      headers: { 'Content-Type': 'application/json'},
+      body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(resMessage => resMessage.isEmailSend && setIsModalShown(true))
+  }
+
   const handleSubmit = event => {
     event.preventDefault();
-    console.log(contactInfo);
+    submitForm(contactInfo);
     setContactInfo({ 
       name: '',
       email: '',
       message: ''
     });
-    setIsModalShown(true);
     gsap.from(modal, {duration: 1.5, opacity: 0, y: 150});
   }
 
